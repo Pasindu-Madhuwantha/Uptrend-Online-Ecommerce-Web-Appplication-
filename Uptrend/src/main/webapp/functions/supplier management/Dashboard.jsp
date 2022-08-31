@@ -220,9 +220,9 @@ iframe {
 			<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog"
 		aria-labelledby="example" aria-hidden="true">
 		<div class="modal-dialog" role="document"
-			style="width: 200%; height: 95% !important;">
+			style="width: 200%; height: 97.5% !important;">
 			<div class="modal-content"
-				style="width: 200%; height: 95% !important; left: -50%;">                   
+				style="width: 200%; height: 97.5% !important; left: -50%;">                   
 				<div class="modal-header">
 					<h5 class="modal-title" id="exampleModalLabel">Edit Details</h5>
 					<button type="button" class="close" data-dismiss="modal"
