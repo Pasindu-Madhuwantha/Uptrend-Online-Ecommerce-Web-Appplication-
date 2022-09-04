@@ -78,11 +78,11 @@
 							<i class="bi bi-speedometer"></i>
 							Dashboard
 						</div>
-						<div onclick="location.href='#Analytics'">
+						<div onclick="location.href='Analytics.jsp'">
 							<i class="bi bi-pie-chart-fill"></i>
 							Analytics
 						</div>
-						<div onclick="location.href='#Report'">
+						<div onclick="location.href='Report.jsp'">
 							<i class="bi bi-file-earmark-spreadsheet-fill"></i>
 							Report
 						</div>
@@ -157,22 +157,22 @@
 							</tbody>
 							
     <div id="deletemodal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document" style="width: 200% !important;">
-            <div class="modal-content border-0" style="width: 200% !important ; left: -50%;">
-                <div class="modal-body p-0" style="width: 180% !important;">
+        <div class="modal-dialog modal-dialog-centered" role="document" style="width: 105% !important;">
+            <div class="modal-content border-0" style="width: 105% !important ; ">
+                <div class="modal-body p-0" style="width: 105% !important;">
                     <div class="card border-0 p-sm-3 p-2 justify-content-center">
                         <div class="card-header pb-0 bg-white border-0 ">
                             <div class="row">
                                 <div class="col ml-auto"><button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button></div>
                             </div>
-                            <p class="font-weight-bold mb-2" style="font-size:40px"> Are you sure you wanna delete this ?</p>
-                            <p class="text-muted " style="font-size:20px" > Record Will Move to Delete Records!!!</p>
+                            <p class="font-weight-bold mb-2" style="font-size:20px"> Are you sure you wanna delete this ?</p>
+                            <p class="text-muted " style="font-size:20px" > Record Will Move to Bin!!!</p>
                         </div>
                         <div class="card-body px-sm-4 mb-2 pt-1 pb-0">
                             <div class="row justify-content-end no-gutters">
                                 
-                               <div><button type="button" class="btn btn-light text-muted" data-dismiss="modal"  style="font-size:25px">Cancel</button></div>&nbsp&nbsp
-                               <div><a href="DeleteData.jsp?del=<%=s1.getSupplierID()%>" class="btn btn-danger"  style="font-size:25px">Delete</a></div>&nbsp
+                               <div style="margin-right:5% !important"><button type="button" class="btn btn-light text-muted" data-dismiss="modal"  style="font-size:15px">Cancel</button></div>&nbsp&nbsp
+                               <div><a href="DeleteData.jsp?del=<%=s1.getSupplierID()%>" class="btn btn-danger"  style="font-size:15px">Delete</a></div>&nbsp
                                 
                                 
                             </div>
