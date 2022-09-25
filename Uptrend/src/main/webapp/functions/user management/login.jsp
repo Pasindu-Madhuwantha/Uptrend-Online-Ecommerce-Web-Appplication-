@@ -191,11 +191,7 @@
 									name="sanswer" required="required">
 							</div>
 
-							<div class="form-group">
-								<p style="color: red; text-align: justify; font-size: small;">By
-									registering you agree that you've read and accepted our user
-									agreement</p>
-							</div>
+							
 
 							<div align="right">
 								<button type="submit" class="button " style="width: 50%"

@@ -68,4 +68,66 @@
 	</servlet-mapping>
 	
   
+	<servlet>
+		<servlet-name>deleteuserpermenently</servlet-name>
+		<servlet-class>com.controller.DeleteUserPermenently</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>deleteuserpermenently</servlet-name>
+		<url-pattern>/functions/user%20management/deleteuserpermenently</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>add_admin</servlet-name>
+		<servlet-class>com.controller.AdminRegistration</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>add_admin</servlet-name>
+		<url-pattern>/functions/user%20management/add_admin</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>viewDeletedUser</servlet-name>
+		<servlet-class>com.controller.viewDeletedUser</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>viewDeletedUser</servlet-name>
+		<url-pattern>/functions/user%20management/viewDeletedUser</url-pattern> 
+	</servlet-mapping>
+	
+    <servlet>
+		<servlet-name>reports</servlet-name>
+		<servlet-class>com.controller.Reports</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>reports</servlet-name>
+		<url-pattern>/functions/user%20management/reports</url-pattern>
+	</servlet-mapping>
+	
+	 <servlet>
+		<servlet-name>reports2</servlet-name>
+		<servlet-class>com.controller.Reports2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>reports2</servlet-name>
+		<url-pattern>/functions/user%20management/reports2</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>usersearch</servlet-name>
+		<servlet-class>com.controller.UserSearch</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>usersearch</servlet-name>
+		<url-pattern>/functions/user%20management/usersearch</url-pattern>
+	</servlet-mapping>
+	
+	
+  
 </web-app>
