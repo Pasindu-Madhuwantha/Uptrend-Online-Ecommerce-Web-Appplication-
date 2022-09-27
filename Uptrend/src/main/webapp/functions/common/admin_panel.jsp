@@ -69,7 +69,7 @@
 					</div>
 
 					<div class="col-12 col-sm-4 func-body">
-						<div class="col func-body-frame" onclick="location.href='#Inventory Management'">
+						<div class="col func-body-frame" onclick="location.href='<%=request.getContextPath()%>/functions/inventory-management/inventory-dashboard'">
 							<div class="row func-body-img">
 								<img src="../../resources/body_images/inventory_management.png">
 							</div>
@@ -95,11 +95,7 @@
 							</div>
 						</div>
 					</div>
-						
 				</div>
-				
-				
-
 			</div>
 		</div>
 		
