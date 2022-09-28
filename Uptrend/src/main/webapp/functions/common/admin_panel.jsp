@@ -29,12 +29,6 @@
 			<div class="col-12 col-sm-3 d-flex align-items-center justify-content-center home-btn-parent">
 				<button type="button" class="nav-home-btn theme-bg-color">Home</button>
 			</div>
-			
-			<div class="col-12 col-sm-3 d-flex align-items-center justify-content-center home-btn-parent">
-			
-				<button type="button" class="nav-home-btn theme-bg-color" onclick="location.href='admin.jsp'">Login</button>
-				
-			</div>
 
 			<div class="col-12 col-sm-7 d-flex align-items-center media-flex hide">
 				<div class="row">
@@ -63,7 +57,7 @@
 					<div class="col-12 col-sm-4 func-body">
 						<div class="col func-body-frame" onclick="location.href='#User Management'">
 							<div class="row func-body-img">
-								<img src="../../resources/body_images/user_management.png"  onclick="location.href='um_dashboard.jsp'">
+								<img src="../../resources/body_images/user_management.png">
 							</div>
 							<div class="row func-body-title">
 								<div class="text-center">
@@ -75,7 +69,7 @@
 					</div>
 
 					<div class="col-12 col-sm-4 func-body">
-						<div class="col func-body-frame" onclick="location.href='<%=request.getContextPath()%>/functions/inventory-management/inventory-dashboard'">
+						<div class="col func-body-frame" onclick="location.href='#Inventory Management'">
 							<div class="row func-body-img">
 								<img src="../../resources/body_images/inventory_management.png">
 							</div>
@@ -101,7 +95,11 @@
 							</div>
 						</div>
 					</div>
+						
 				</div>
+				
+				
+
 			</div>
 		</div>
 		
