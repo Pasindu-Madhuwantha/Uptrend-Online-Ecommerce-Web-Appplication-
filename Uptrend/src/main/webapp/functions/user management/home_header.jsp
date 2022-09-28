@@ -26,7 +26,11 @@
 			</div>
 
 			<div class="col-12 col-sm-3 d-flex align-items-center justify-content-center home-btn-parent">
+<<<<<<< HEAD
 				<button type="button" class="nav-home-btn theme-bg-color"   onclick="location.href='../common/home3.jsp'">Home</button>
+=======
+				<button type="button" class="nav-home-btn theme-bg-color">Home</button>
+>>>>>>> 3a42cf531a86f72d75ca05290c76998fbda2ce79
 			</div>
 			<div class="col-12 col-sm-3 d-flex align-items-center justify-content-center home-btn-parent">
 				<button type="button" class="nav-home-btn theme-bg-color">Shop</button>

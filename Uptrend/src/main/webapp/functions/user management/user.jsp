@@ -84,7 +84,11 @@
 						</table>
 
 						<div align="right">
+<<<<<<< HEAD
 							<form action="../../functions/user%20management/menubehavior" method="post">
+=======
+							<form action="menubehavior" method="post">
+>>>>>>> 3a42cf531a86f72d75ca05290c76998fbda2ce79
 								<input type="submit" class="btn btn-warning" style="width: 25%"
 									value="Update Details" name="btn"/>
 							</form>

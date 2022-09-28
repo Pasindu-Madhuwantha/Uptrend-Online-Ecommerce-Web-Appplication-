@@ -29,6 +29,7 @@
 	</servlet-mapping>
 	
 	<servlet>
+<<<<<<< HEAD
 		<servlet-name>Login2</servlet-name>
 		<servlet-class>com.controller.Login2</servlet-class>
 	</servlet>
@@ -38,6 +39,8 @@
 	</servlet-mapping>
 	
 	<servlet>
+=======
+>>>>>>> 3a42cf531a86f72d75ca05290c76998fbda2ce79
 		<servlet-name>menubehavior</servlet-name>
 		<servlet-class>com.controller.MenuBehavior</servlet-class>
 	</servlet>
@@ -138,6 +141,7 @@
 	</servlet-mapping>
 	
 	
+<<<<<<< HEAD
 	<servlet>
 		<servlet-name>Home</servlet-name>
 		<servlet-class>com.controller.Home</servlet-class>
@@ -149,5 +153,7 @@
 	
 	
 	
+=======
+>>>>>>> 3a42cf531a86f72d75ca05290c76998fbda2ce79
   
 </web-app>

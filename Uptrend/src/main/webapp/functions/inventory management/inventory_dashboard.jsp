@@ -12,9 +12,15 @@
 	<link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap-grid.css">
 
 	<!-- Custom CSS -->
+<<<<<<< HEAD
 	<link rel="stylesheet" type="text/css" href="/resources/css/admin_panel_custom.css">
 	<link rel="stylesheet" type="text/css" href="/resources/css/admin_media_query.css">
 	<link rel="stylesheet" type="text/css" href="/resources/css/inventory_dashboard.css">
+=======
+	<link rel="stylesheet" type="text/css" href="../../resources/css/admin_panel_custom.css">
+	<link rel="stylesheet" type="text/css" href="../../resources/css/admin_media_query.css">
+	<link rel="stylesheet" type="text/css" href="../../resources/css/inventory_dashboard.css">
+>>>>>>> 3a42cf531a86f72d75ca05290c76998fbda2ce79
 </head>
 
 <body>
@@ -94,7 +100,11 @@
 	<!-- Footer -->
 	<div class="p-4 container-fluid theme-bg-color d-flex justify-content-center align-items-center">
 		<div class="footer-title text-center">
+<<<<<<< HEAD
 			Copyright ï¿½ 2022 Uptrend - All Rights Reserved
+=======
+			Copyright © 2022 Uptrend - All Rights Reserved
+>>>>>>> 3a42cf531a86f72d75ca05290c76998fbda2ce79
 		</div>
 	</div>
 </body>

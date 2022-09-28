@@ -48,6 +48,7 @@ public class Login extends HttpServlet {
 			HttpSession session = request.getSession(true);
 			session.setAttribute("getUserSession", uName);
 
+<<<<<<< HEAD
 			
 			request.setAttribute("uname", uName);
 
@@ -57,6 +58,14 @@ public class Login extends HttpServlet {
 			
 //			RequestDispatcher rd = request.getRequestDispatcher("../common/home2.jsp");
 //			rd.forward(request, response);
+=======
+			List<User> userDetails = com.db.Login.userDetails(uName);
+			//response.sendRedirect("user.jsp");
+			request.setAttribute("userDetails", userDetails);
+
+			RequestDispatcher rd = request.getRequestDispatcher("user.jsp");
+			rd.forward(request, response);
+>>>>>>> 3a42cf531a86f72d75ca05290c76998fbda2ce79
 		} else {
 			request.setAttribute("msg", "false");
 			//response.sendRedirect("login.jsp");
