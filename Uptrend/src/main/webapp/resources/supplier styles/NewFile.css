@@ -1,8 +1,9 @@
-
+@charset "ISO-8859-1";
 
 /* ------------------------ Header CSS ------------------------ */
 .theme-bg-color {
 	background-color: #0b3c5a !important;
+	width:auto;
 }
 
 .nav-home-btn {
