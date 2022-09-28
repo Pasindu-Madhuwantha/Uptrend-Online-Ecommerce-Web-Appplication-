@@ -114,14 +114,5 @@
 		<url-pattern>/functions/inventory-management/report</url-pattern>
 	</servlet-mapping>
 	
-	<servlet>
-		<servlet-name>stock-view</servlet-name>
-		<servlet-class>com.controller.HomeView</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>stock-view</servlet-name>
-		<url-pattern>/functions/common/stock-view</url-pattern>
-	</servlet-mapping>
-	
 
 </web-app>

@@ -48,16 +48,6 @@ public class Inventory {
 		
 	}
 	
-	public Inventory(int invId, String itemName, int available, double sellPrice,String itemImg) {
-
-		this.invId = invId;
-		this.itemName = itemName;
-		this.available = available;
-		this.sellPrice = sellPrice;
-		this.itemImg = itemImg;
-		
-	}
-	
 	public Inventory(int invId, String itemName, int quantity, int available, double purchPrice, double sellPrice,
 			String itemType) {
 		
